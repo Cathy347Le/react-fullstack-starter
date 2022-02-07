@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend-starter/server",
-    "server": "nodemon backend-starter/server"
+    "server": "nodemon backend-starter/server",
+    "client": "npm start --prefix frontend"
   },
   "author": "Cathy Le",
   "license": "ISC",

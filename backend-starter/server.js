@@ -7,8 +7,16 @@ dotenv.config();
 //Initialize Express
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+// app.get('/', (req, res) => {
+//   res.send('Hello World!');
+// });
+
+app.get('/api/products', (req, res) => {
+  res.json(products);
+});
+
+app.get('/api/products/:id', (req, res) => {
+  res.json(products.find((p) => p._id === req.params.id));
 });
 
 //Start server

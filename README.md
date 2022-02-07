@@ -15,4 +15,9 @@
 - Restart after you make updates to ENV file
 - Test simple server request with a console.log request
 - Everything you make a change on the server, you did to restart BOTH the server and browser. Workaround is to use nodemon to listen for changes and you just need to refres the browser `npm i -D nodemon" as a devDependency
-- Another npm package devDependency concurrently can be use to run both the front and backend in one script `npm i -D concurrently`
+- Another npm package devDependency concurrently can be use to run both the front and backend app in one script `npm i -D concurrently`
+- More info on concurrently can be found in Section 3 Traversy Media
+
+#### Create products and singleProduct routes
+
+- Make two get requests for get the products list and single product
