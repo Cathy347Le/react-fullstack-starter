@@ -21,3 +21,5 @@
 #### Create products and singleProduct routes
 
 - Make two get requests for get the products list and single product
+
+- Add Error Handling, Add MongoDB and Mongoose?

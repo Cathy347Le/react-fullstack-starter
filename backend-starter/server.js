@@ -7,9 +7,10 @@ dotenv.config();
 //Initialize Express
 const app = express();
 
-// app.get('/', (req, res) => {
-//   res.send('Hello World!');
-// });
+app.get('/', (req, res) => {
+  // res.send('Hello World!');
+  res.send('List of products can be found /api/products');
+});
 
 app.get('/api/products', (req, res) => {
   res.json(products);
